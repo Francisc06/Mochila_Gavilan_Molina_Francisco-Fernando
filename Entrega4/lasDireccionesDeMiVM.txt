@@ -1,0 +1,12 @@
+IP PRIVADA DE MI VM
+inet:10.0.2.15
+
+IP PÚBLICA DE MI VM
+192.168.0.22
+
+DIRECCIÓN MAC
+link/ether 08:00:27:b6:09:c1
+
+¿Es diferente a la IP pública y privada de nuestra maquina host?
+Sí, la dirección MAC es diferente, porque este es un identificador único
+y físico a la tarjeta de red de un dispositivo de 6 bytes.
