@@ -1,0 +1,54 @@
+a. ¿Cuáles son las ventajas y desventajas de utilizar el protocolo Telnet?
+
+Ventajas
+Telnet es un protocolo simple y fácil de usar. Permite establecer una conexión remota a un servidor 
+o dispositivo utilizando un cliente Telnet, lo cual facilita el acceso y la administración remota.
+
+Telnet también es compatible con una amplia gama de sistemas operativos y dispositivos de red. Esto 
+significa que puedes acceder a diferentes tipos de equipos, como routers, switches o servidores, 
+utilizando el mismo protocolo.
+
+Desventajas
+Telnet no proporciona ningún tipo de encriptación o autenticación de datos. Esto significa que la 
+información, incluyendo las contraseñas, se envía en texto plano, lo que la hace vulnerable a 
+ataques de interceptación y suplantación de identidad.
+
+A su vez, aunque Telnet permite el acceso remoto, carece de características avanzadas de administración,
+como la transferencia de archivos o la ejecución de comandos remotos complejos. Estas limitaciones 
+pueden dificultar algunas tareas de administración y mantenimiento de sistemas.
+
+b. ¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
+
+Ventajas
+SSH es conocido por su fuerte encriptación y autenticación, lo que proporciona una capa adicional de 
+seguridad durante las conexiones remotas. Utiliza técnicas criptográficas para proteger la 
+confidencialidad de los datos transmitidos y prevenir ataques de suplantación y manipulación de datos.
+
+También SSH ofrece diversos métodos de autenticación, incluyendo la autenticación de clave pública, 
+que es considerada muy segura. Permite generar pares de claves públicas y privadas, donde la clave 
+privada se mantiene en el cliente y la clave pública se almacena en el servidor.
+
+Desventajas
+Configurar correctamente SSH puede requerir ciertos conocimientos técnicos, especialmente en entornos 
+más complejos o con configuraciones personalizadas. Es posible que se requiera modificar la configuración 
+del servidor SSH y gestionar las claves públicas y privadas de manera adecuada.
+
+Asu vez, aunque SSH ofrece una capa de seguridad valiosa, la encriptación y desencriptación de datos puede 
+consumir recursos de ancho de banda y procesamiento. En conexiones lentas o con alta carga de tráfico, 
+esto puede ralentizar la velocidad de transferencia de datos.
+
+c. ¿Cuáles son las principales diferencias entre SSH y Telnet?
+
+En el ambito de la seguridad, SSH utiliza técnicas de encriptación fuerte para proteger los datos 
+transmitidos, mientras que Telnet no encripta los datos. Esto hace que Telnet sea vulnerable a ataques 
+de interceptación y suplantación de identidad, mientras que SSH brinda una capa adicional de seguridad.
+
+En el ambito de la autenticación, SSH admite métodos de autenticación basados en clave pública, lo que 
+significa que los usuarios pueden generar pares de claves públicas y privadas para autenticarse sin 
+necesidad de ingresar contraseñas. En cambio, Telnet utiliza contraseñas para autenticar a los usuarios, 
+lo que es menos seguro, especialmente si se interceptan o se utilizan contraseñas débiles.
+
+En el ambito de características funcionales, SSH permite la ejecución de comandos remotos, transferencia 
+de archivos (a través de SCP o SFTP), reenvío de puertos, acceso a shells seguros y mucho más. Telnet, por 
+otro lado, carece de muchas de estas funcionalidades y se centra principalmente en proporcionar acceso 
+remoto básico sin características adicionales.
